@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- link for css -->
+    <link rel="stylesheet"   href="./style.css">
+</head>
+<body>
+    <!-- main body -->
+    <section class="main">
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="wave wave4"></div>
+        <!-- icon for weather -->
+        <div class="icon">
+            <img src="" alt="">
+        </div>
+        <div class="location">
+            <h2>{%location%},{%country%}</h2>
+        </div>
+        <div class="info">
+            <span class="time">12:00:30</span>
+            <span class="date">mon | may 15| 2023</span>
+            <H1 class="temp">{%tempval%}&degC;</H1>
+            <h4 class="temp-mx">Min {%tempmin%}&degC; Max {%tempmax%}&degC;</h4>
+        </div>
+    </section>
+    <!-- link of form -->
+    <section class="form">
+        <div class="user-input">
+            <input type="text" placeholder="enter your city" id="city">
+            <input type="text" placeholder="enter your state" id="state">
+        </div>
+        <input type="submit" value="Submit" id="submit">
+    </section>
+    <!-- javascript file -->
+    <script src="./script.js"></script>
+    <script src="./script2.js"></script>
+</body>
+</html>
